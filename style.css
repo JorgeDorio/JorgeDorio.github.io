@@ -1,49 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Open+Sans+Condensed:wght@300&display=swap');
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 100%;
+body{
+  font-family: sans-serif;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  background-color: rgb(56, 56, 56);
-  color: aliceblue;
-}
-
-h1 {
-  font-family: 'Mukta', sans-serif;
-  font-size: 3.5rem;
-}
-
-h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-a {
-  color: aliceblue;
-  text-decoration: none;
-}
-
-section.box {
-  font-family: 'Open Sans Condensed', sans-serif;
-  border: solid;
-  border-radius: 1rem;
-  border-width: 1px;
-  width: 25rem;
-  height: 9.375rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  
+h1{
+  position: relative;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 56px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-style: normal;
+  color: #262626;
+  text-rendering: geometricPrecision;
 }
