@@ -60,6 +60,7 @@ h2{
 }
 
 p{
+  text-align: justify;
   color: #eeeeee;
   float: left;
   font-weight: normal;
