@@ -10,8 +10,8 @@ body {
 h1 {
   position: relative;
   display: inline-block;
-  font-size: 36px;
-  line-height: 56px;
+  font-size: 2.25rem;
+  line-height: 3.5rem;
   letter-spacing: 2px;
   font-weight: normal;
   font-style: normal;
@@ -42,7 +42,46 @@ a {
   color: #eeeeee;
 }
 
-img {
+.animation {
   width: 2.25rem;
   filter: invert(1);
+}
+
+h2{
+  margin: 2.25rem 10% 2.25rem 10%;
+  letter-spacing: 0.19rem;
+  font-size: 1.5rem;
+  color: #eeeeee;
+}
+
+p{
+  color: #eeeeee;
+  margin: 1.5rem 10% 2.25rem 10%;
+  float: left;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.88rem;
+  line-height: 1.75rem;
+  text-rendering: geometricPrecision;
+}
+
+
+
+
+.dogtag{
+  color: #eeeeee;
+  margin: 2.25rem 0% 2.25rem 0;
+  float: left;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 3rem;
+  text-rendering: geometricPrecision;
+}
+
+.profile{
+  margin: 2.25rem 10% 2.25rem 10%;
+  margin-right: 3%;
+  width: 12.5rem;
+  height: 12.5rem;
 }
