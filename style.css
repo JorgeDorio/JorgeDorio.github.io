@@ -1,8 +1,13 @@
-body{
-  font-family: sans-serif;
+.space{
+  margin: 7rem 10% 7.5rem 10%;
 }
 
-h1{
+body {
+  font-family: sans-serif;
+  background-color: #292929;
+}
+
+h1 {
   position: relative;
   display: inline-block;
   font-size: 36px;
@@ -10,6 +15,34 @@ h1{
   letter-spacing: 2px;
   font-weight: normal;
   font-style: normal;
-  color: #262626;
+  color: aliceblue;
   text-rendering: geometricPrecision;
+  margin: 2.25rem 10% 6.75rem 10%;
+}
+
+.topicos {
+  color: #eeeeee;
+  margin: 2.25rem 10% 2.25rem 10%;
+  width: 30%;
+  float: left;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.88rem;
+  line-height: 1.75rem;
+  text-rendering: geometricPrecision;
+}
+
+h4{
+  letter-spacing: 0.19rem;
+  font-size: 0.75rem;
+}
+
+a{
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+img{
+  width: 2.25rem;
+  filter: invert(1);
 }
