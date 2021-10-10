@@ -1,49 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Open+Sans+Condensed:wght@300&display=swap');
+.space {
+  margin: 10%;
+}
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 100%;
+*{
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  background-color: rgb(38, 38, 38);
-  color: rgb(141, 141, 146);
+  font-family: sans-serif;
+  background-color: #292929;
 }
 
 h1 {
-  font-family: 'Mukta', sans-serif;
-  font-size: 3.5rem;
+  position: relative;
+  display: inline-block;
+  font-size: 2.25rem;
+  line-height: 3.5rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-style: normal;
+  color: aliceblue;
+  text-rendering: geometricPrecision;
+  margin: 10%;
 }
 
-h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.5rem;
+.topicos {
+  color: #eeeeee;
+  margin: 10%;
+  width: 30%;
+  float: left;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.88rem;
+  line-height: 1.75rem;
+  text-rendering: geometricPrecision;
 }
 
 h4 {
-  font-size: 1.5rem;
+  letter-spacing: 0.19rem;
+  font-size: 0.75rem;
 }
 
 a {
-  color: aliceblue;
   text-decoration: none;
+  color: #eeeeee;
 }
 
-section.box {
-  font-family: 'Open Sans Condensed', sans-serif;
-  border: solid;
-  border-radius: 1rem;
-  border-width: 1px;
-  width: 25rem;
-  height: 9.375rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  
+.animation {
+  width: 2.25rem;
+  filter: invert(1);
+}
+
+h2{
+  letter-spacing: 0.19rem;
+  font-size: 1.5rem;
+  color: #eeeeee;
+  margin-bottom: 5%;
+}
+
+p{
+  text-align: justify;
+  color: #eeeeee;
+  float: left;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.88rem;
+  line-height: 1.75rem;
+  text-rendering: geometricPrecision;
+}
+
+.profile{
+  float: left;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner{
+  margin: 10% 10%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.conteiner p{
+  font-size: 1rem;
+  line-height: 3rem;
+  margin: 0;
+
+  float: right;
+  padding: 0.8rem;
+  vertical-align: top;
+}
+
+.aboutme{
+  margin: 10% 10%;
 }
