@@ -26,10 +26,11 @@ h1 {
 }
 
 .topicos {
+  vertical-align: top;
+  display: inline-block;
   color: #eeeeee;
   margin: 10%;
-  width: 30%;
-  float: left;
+  width: 25%;
   font-weight: normal;
   font-style: normal;
   font-size: 0.88rem;
