@@ -9,7 +9,8 @@ body {
 }
 
 main {
-  margin: 20% 5% 5% 5%;
+  display: block;
+  margin: 5% auto;
   border-radius: 10px;
   width: 400px;
   padding: 5%;
@@ -23,7 +24,7 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -20%;
+  margin-top: -30%;
 }
 
 a {

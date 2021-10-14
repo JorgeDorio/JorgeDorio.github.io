@@ -23,7 +23,7 @@ body {
   font-family: sans-serif;
 }
 
-#modePic{
+#modePic {
   width: 2.25rem;
   float: right;
   filter: brightness(100);
