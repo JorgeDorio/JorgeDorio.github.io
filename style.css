@@ -11,10 +11,9 @@ body {
 main {
   margin: 20% 5% 5% 5%;
   border-radius: 10px;
+  width: 400px;
   padding: 5%;
   background-color: rgb(255, 255, 255);
-  display: flex;
-  align-items: center;
 }
 
 .logo {
